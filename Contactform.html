@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <div><h1>Women in Tech</h1></div>
+
+    <div>
+        <b><p>
+          Would you like to get started in tech? Stutern in helping 1000 ladies
+          kickstart their career in tech. If you would like to be one, Kindly fill
+          in your data below
+        </p></b>
+
+    <img src="https://images.pexels.com/photos/1181360/pexels-photo-1181360.jpeg?auto=compress&cs=tinysrgb&w=600" height="200px" width="700px">
+    <hr >
+    </div>
+    <br >
+    <form>
+        <!-- This is a basic form for collecting data. -->
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" name="Name" id="name" placeholder="Your name" >
+        </div>
+        <br >
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="Email address" placeholder="@gmail.com" id="email">
+        </div>
+        <br >
+        <div>
+            <label for="Phone number">Phone number:</label>
+            <input type="number" name="Phone number" placeholder="Phone number" id="Phone number">
+        </div>
+        <br >
+        <div>
+            <label for="Age">Date of Birth:</label>
+            <input type="date"  name="Age" placeholder="Date of birth" id="Age" min="18" max="30">
+        </div>
+        <br >
+        <div>
+            <label for="Nationality">Nationalty: </label> 
+            <input type="text" name="Nationality" placeholder="Nationality" id="Nationalty">
+        </div>
+        <br >
+        <div>
+            <label for="Gender">Gender:</label>
+            <select name="Gender" id="gender">
+                <option value="female">Female</option>
+                <option value="Male">Male</option>
+                <option value="They">Them</option>
+            </select>
+        </div>
+        <br >
+        <div>
+        <p>Preferred training time:</p>
+            <label>Morning<input type="radio" name="training time" id="training session" value="Morning"></label>
+            <label>Afternoon<input type="radio" name="training time" id="training session" value="Afternoon"></label>
+            <label>Night<input type="radio" name="training time" id="training session" value="night"></label>  
+        </div>
+        <br >
+        <div>
+           <b><p>Upload your Cv</p> </b>
+            <input type="file" name="CV" size="14kb">
+
+        </div>
+        <br >
+        <div>
+            <label for="comment">Write us a message, we  would love to hear from you</label></p>
+            <textarea rows="4" cols="30" name="Comment" id="comment" placeholder="Write here"></textarea>
+        </div>
+        <br >
+        <div>
+            <label>I would like to get a job in tech</label>
+            <input type="checkbox" id="comment" > <br >
+
+            <label>I would like to increase my knowledge base</label>
+            <input type="checkbox" id="comment" > <br >
+
+            <label for>I would like to learn for the fun of it</label>
+            <input type="checkbox" id="comment" >
+        </div>
+        <br >
+        <hr>
+        <p>We would like to see a picture of you, if you would oblige us, something like this below</p>
+        <img src="images/Myself.jpg" width="200" height="200" alt="A picture of you">
+        <a href="https://mobile.twitter.com/AlwaysValda/photo">link</a> <br > <br >
+
+        <div>
+            <input type="submit" id="submit" >
+        </div>
+    </form>
+  </body>
+</html>
